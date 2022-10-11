@@ -28,16 +28,6 @@ const LittleCard=({name})=>{
 export default function Explore() {
   const [results, setResults] = useState([]) 
 
-  /* const FetchReasults=()=>{
-
-    fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=politics&type=video&key=AIzaSyC01doe6yXfQr5Rv6wCvhuf_EfeiXI0U4Y`)
-    .then(res=>res.json())
-    .then(data=>{
-      //console.log(data)
-
-      setResults(data.items)
-    })
-  } */
 
   
   return (
