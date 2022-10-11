@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "YellowTube",
+    "slug": "YellowTube",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "72506039-1a03-4574-9404-b6e7b444ced5"
+      }
+    }
+  }
+}
