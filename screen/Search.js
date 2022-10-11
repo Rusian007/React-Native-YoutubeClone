@@ -7,7 +7,6 @@ import { useNavigation } from '@react-navigation/native';
 import Suggesstions from '../components/Suggesstions';
 import GetKey from '../key';
 
-//https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=56&q=music&type=video&key=AIzaSyApCtZt2PAN6-nWsbHobHl-PodPeVDsttE
 export default function Search() {
   const navigation = useNavigation()
     const [text, setText] = useState("") 
@@ -43,7 +42,6 @@ export default function Search() {
 
     const searchFunc=(Thetext)=>{
      setText(Thetext)
-     //`http://suggestqueries.google.com/complete/search?hl=en&ds=yt&client=youtube&hjson=t&cp=1&q=${Thetext}&format=5&alt=json`
       
    fetch(`https://corsproxy.io/?http://suggestqueries.google.com/complete/search?hl=en&ds=yt&client=youtube&hjson=t&cp=1&q=${Thetext}&format=5&alt=json`,{
       //mode: "no-cors",
